@@ -1,0 +1,13 @@
+<?php
+if($page=="create-rmstock"){
+	$found=include("views/pages/ui/rmstock/create_rmstock.php");
+}elseif($page=="edit-rmstock"){
+	$found=include("views/pages/ui/rmstock/edit_rmstock.php");
+}elseif($page=="rmstocks"){
+	$found=include("views/pages/ui/rmstock/manage_rmstock.php");
+}elseif($page=="details-rmstock"){
+	$found=include("views/pages/ui/rmstock/details_rmstock.php");
+}elseif($page=="view-rmstock"){
+	$found=include("views/pages/ui/rmstock/view_rmstock.php");
+}
+?>

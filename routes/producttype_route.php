@@ -1,0 +1,13 @@
+<?php
+if($page=="create-producttype"){
+	$found=include("views/pages/ui/producttype/create_producttype.php");
+}elseif($page=="edit-producttype"){
+	$found=include("views/pages/ui/producttype/edit_producttype.php");
+}elseif($page=="product_types"){
+	$found=include("views/pages/ui/producttype/manage_producttype.php");
+}elseif($page=="details-producttype"){
+	$found=include("views/pages/ui/producttype/details_producttype.php");
+}elseif($page=="view-producttype"){
+	$found=include("views/pages/ui/producttype/view_producttype.php");
+}
+?>

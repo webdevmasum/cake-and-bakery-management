@@ -1,0 +1,13 @@
+<?php
+if($page=="create-distribution"){
+	$found=include("views/pages/ui/distribution/create_distribution.php");
+}elseif($page=="edit-distribution"){
+	$found=include("views/pages/ui/distribution/edit_distribution.php");
+}elseif($page=="distribution"){
+	$found=include("views/pages/ui/distribution/manage_distribution.php");
+}elseif($page=="details-distribution"){
+	$found=include("views/pages/ui/distribution/details_distribution.php");
+}elseif($page=="view-distribution"){
+	$found=include("views/pages/ui/distribution/view_distribution.php");
+}
+?>
